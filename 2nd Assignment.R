@@ -18,7 +18,7 @@ unzip("./air_pollution.zip", exdir = "./air_pollution" )
 NEI <- readRDS("./air_pollution/summarySCC_PM25.rds")
 SCC <- readRDS("./air_pollution/Source_Classification_Code.rds")
 
-## Testinf Data
+## Testing Data
 
 str(NEI)
 str(SCC)
